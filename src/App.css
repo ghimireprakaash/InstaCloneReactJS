@@ -1,0 +1,38 @@
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  height: fit-content;
+}
+
+.row{
+  width: 70%;
+}
+
+form{
+  width: 100%;
+}
+
+.instagram-text{
+  font-size: 37px;
+}
+
+.forgot-password{
+  text-align: center;
+}
+
+.forgot-password .text-primary{
+  text-decoration: none;
+  font-size: small;
+}
+
+.signup-text {
+  text-align: center;
+}
+
+.signup-text .text-primary{
+  text-decoration: none;
+  font-weight: 600;
+}
