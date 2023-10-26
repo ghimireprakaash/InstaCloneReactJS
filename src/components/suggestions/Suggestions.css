@@ -1,0 +1,73 @@
+.suggestions-container {
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.suggestions-title {
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+}
+
+.suggestions-username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.username-left {
+  display: flex;
+  align-items: center;
+}
+
+.username-left img {
+  height: 40px;
+}
+
+.username-info {
+  margin: 0px;
+  padding: 0px;
+}
+
+.username-info .username {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.username-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.relation {
+  color: grey;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.follow-btn {
+  height: fit-content;
+  color: #0095f6;
+  font-size: 12px;
+  font-weight: bold;
+  border: 0px;
+  background-color: transparent;
+}
+
+.username-info:hover {
+  cursor: pointer;
+}
+
+.follow-btn:hover {
+  cursor: pointer;
+  color: white;
+}

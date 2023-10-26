@@ -1,0 +1,75 @@
+.post {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header-userProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-header-userProfile img {
+  height: 30px;
+}
+
+.post-header-userProfile h6 {
+  padding: 0px 5px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.post-header-userProfile h6 > span {
+  color: grey;
+  font-size: 12px;
+}
+
+.post-header-more {
+  margin-right: 5px;
+}
+
+.post-image > img {
+  width: 100%;
+  height: 350px;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+  margin-top: 3px;
+}
+
+.post-footer {
+  width: 100%;
+}
+
+.post-footerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 20px;
+  padding: 7px;
+}
+
+.post-footerIcons .post-iconSave {
+  height: 20px;
+}
+
+.post-footer-likedNumber > h6 {
+  font-size: 12px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

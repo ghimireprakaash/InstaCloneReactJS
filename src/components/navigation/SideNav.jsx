@@ -1,5 +1,5 @@
 import "./SideNav.css";
-import instagram from "../../assets/instagram-text-logo.png";
+import instagram from "../../assets/instagram-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -7,10 +7,10 @@ import {
   faCompass,
   faVideo,
   faMessage,
-  faHeart,
   faCirclePlus,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
 export default function SideNav() {
   return (
